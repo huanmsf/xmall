@@ -5,6 +5,7 @@ import { GatewaySharedModule } from 'app/shared';
 
 import {
     adminState,
+    AuditsComponent,
     UserMgmtComponent,
     UserMgmtDetailComponent,
     UserMgmtUpdateComponent,
@@ -25,6 +26,7 @@ import {
         /* jhipster-needle-add-admin-module - JHipster will add admin modules here */
     ],
     declarations: [
+        AuditsComponent,
         UserMgmtComponent,
         UserMgmtDetailComponent,
         UserMgmtUpdateComponent,

@@ -29,7 +29,7 @@ describe('Service Tests', () => {
                 service.find('user').subscribe(() => {});
 
                 const req = httpMock.expectOne({ method: 'GET' });
-                const resourceUrl = SERVER_API_URL + 'uaajh/api/users';
+                const resourceUrl = SERVER_API_URL + 'uaa/api/users';
                 expect(req.request.url).toEqual(`${resourceUrl}/user`);
             });
             it('should return User', () => {
@@ -39,6 +39,15 @@ describe('Service Tests', () => {
 
                 const req = httpMock.expectOne({ method: 'GET' });
                 req.flush(new User(1, 'user'));
+            });
+
+            it('should return Authorities', () => {
+                service.authorities().subscribe(_authorities => {
+                    expect(_authorities).toEqual(['ROLE_USER', 'ROLE_ADMIN']);
+                });
+                const req = httpMock.expectOne({ method: 'GET' });
+
+                req.flush(['ROLE_USER', 'ROLE_ADMIN']);
             });
 
             it('should propagate not found response', () => {

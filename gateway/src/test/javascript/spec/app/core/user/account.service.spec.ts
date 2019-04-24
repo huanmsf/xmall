@@ -28,7 +28,7 @@ describe('Service Tests', () => {
             it('should call /account if user is undefined', () => {
                 service.identity().then(() => {});
                 const req = httpMock.expectOne({ method: 'GET' });
-                const resourceUrl = SERVER_API_URL + 'uaajh/api/account';
+                const resourceUrl = SERVER_API_URL + 'uaa/api/account';
 
                 expect(req.request.url).toEqual(`${resourceUrl}`);
             });
@@ -36,7 +36,7 @@ describe('Service Tests', () => {
             it('should call /account only once', () => {
                 service.identity().then(() => service.identity().then(() => {}));
                 const req = httpMock.expectOne({ method: 'GET' });
-                const resourceUrl = SERVER_API_URL + 'uaajh/api/account';
+                const resourceUrl = SERVER_API_URL + 'uaa/api/account';
 
                 expect(req.request.url).toEqual(`${resourceUrl}`);
                 req.flush({

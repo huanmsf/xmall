@@ -1,22 +1,22 @@
 {
   "generator-jhipster": {
     "promptValues": {
-      "packageName": "com.mycompany.myapp"
+      "packageName": "com.xh.mall.gateway"
     },
     "jhipsterVersion": "5.8.2",
     "applicationType": "gateway",
     "baseName": "gateway",
-    "packageName": "com.mycompany.myapp",
-    "packageFolder": "com/mycompany/myapp",
+    "packageName": "com.xh.mall.gateway",
+    "packageFolder": "com/xh/mall/gateway",
     "serverPort": "8080",
     "authenticationType": "uaa",
-    "uaaBaseName": "uaajh",
+    "uaaBaseName": "uaa",
     "cacheProvider": "hazelcast",
     "enableHibernateCache": false,
     "websocket": false,
-    "databaseType": "no",
-    "devDatabaseType": "no",
-    "prodDatabaseType": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
     "searchEngine": false,
     "messageBroker": false,
     "serviceDiscoveryType": "eureka",
