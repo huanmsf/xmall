@@ -3,10 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="c50b7722-c556-4dda-b8ac-3384a65fd966" name="Default Changelist" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/19f5dae1-32ab-4005-bf1e-22070730720c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/19f5dae1-32ab-4005-bf1e-22070730720c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ad/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/entity.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/entity.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/webpack/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/webpack/webpack.dev.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,6 +27,7 @@
     <ignored path="$PROJECT_DIR$/getway/target/" />
     <ignored path="$PROJECT_DIR$/eureka/target/" />
     <ignored path="$PROJECT_DIR$/gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ad/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +73,12 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="uaajh: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="xmall: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
@@ -85,40 +97,55 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="USAGE" value="1" />
           <entry key="class" value="8" />
+          <entry key="cmd" value="1" />
           <entry key="csv" value="3" />
+          <entry key="editorconfig" value="1" />
           <entry key="ejs" value="1" />
           <entry key="factories" value="1" />
+          <entry key="gitattributes" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="html" value="3" />
-          <entry key="java" value="154" />
-          <entry key="js" value="1" />
-          <entry key="json" value="1" />
-          <entry key="md" value="1" />
+          <entry key="java" value="155" />
+          <entry key="jh" value="1" />
+          <entry key="js" value="3" />
+          <entry key="json" value="6" />
+          <entry key="md" value="3" />
+          <entry key="mvnw" value="1" />
           <entry key="p12" value="2" />
           <entry key="pom" value="2" />
+          <entry key="prettierignore" value="1" />
+          <entry key="prettierrc" value="2" />
           <entry key="properties" value="4" />
+          <entry key="sh" value="1" />
           <entry key="sql" value="6" />
           <entry key="tb_user" value="1" />
           <entry key="txt" value="1" />
+          <entry key="webapp" value="1" />
           <entry key="xml" value="29" />
-          <entry key="yml" value="52" />
+          <entry key="yml" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="8" />
           <entry key="Database Element" value="1" />
+          <entry key="Git file" value="1" />
           <entry key="HTML" value="3" />
-          <entry key="JAVA" value="154" />
-          <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="JAVA" value="155" />
+          <entry key="JSON" value="4" />
+          <entry key="JavaScript" value="3" />
+          <entry key="Markdown" value="3" />
+          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="Prettier file" value="1" />
           <entry key="Properties" value="4" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="5" />
           <entry key="XML" value="31" />
-          <entry key="YAML" value="52" />
+          <entry key="YAML" value="55" />
           <entry key="spring.factories" value="1" />
+          <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -131,7 +158,7 @@
           <entry key="sql" value="90" />
           <entry key="txt" value="9" />
           <entry key="xml" value="132" />
-          <entry key="yml" value="102" />
+          <entry key="yml" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -141,7 +168,7 @@
           <entry key="Properties" value="38" />
           <entry key="Scratch" value="133" />
           <entry key="XML" value="132" />
-          <entry key="YAML" value="102" />
+          <entry key="YAML" value="118" />
         </counts>
       </usages-collector>
     </session>
@@ -149,39 +176,73 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="108" selection-start-line="108" selection-end-line="116" selection-end-column="106" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/application-prod.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="56" column="47" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="56" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/xh/mall/gateway/GatewayApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1235">
-              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/ad/.yo-rc.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/application-dev.yml">
+        <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/entity/prompts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+            <state relative-caret-position="-15953">
+              <caret line="376" column="28" selection-start-line="376" selection-start-column="28" selection-end-line="376" selection-end-column="28" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ad/mvnw">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5774" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ad/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ad/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ad/quotes.jh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ad/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-694">
+                <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/import-jdl/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-341" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/import-jdl/USAGE">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -208,6 +269,8 @@
       <find>uaajh</find>
       <find>http://uaa</find>
       <find>url</find>
+      <find>JPAMetaModelFiltering</find>
+      <find>serviceClass</find>
     </findStrings>
     <replaceStrings>
       <replace>uaa</replace>
@@ -215,6 +278,7 @@
     <dirStrings>
       <dir>$PROJECT_DIR$/uaajh</dir>
       <dir>$PROJECT_DIR$/gateway/src/main/resources/config</dir>
+      <dir>$PROJECT_DIR$/ad</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -278,6 +342,7 @@
         <option value="$PROJECT_DIR$/gateway/src/main/resources/config/application.yml" />
         <option value="$PROJECT_DIR$/gateway/src/main/resources/config/application-prod.yml" />
         <option value="$PROJECT_DIR$/gateway/src/main/resources/config/application-dev.yml" />
+        <option value="$PROJECT_DIR$/ad/src/main/resources/config/application-dev.yml" />
       </list>
     </option>
   </component>
@@ -289,16 +354,23 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="xmall" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/ad/node_modules" />
     <handled-path value="$PROJECT_DIR$/gateway/node_modules" />
     <handled-path value="$PROJECT_DIR$/uaa/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/ad/package.json" />
       <path value="$PROJECT_DIR$/gateway/package.json" />
       <path value="$PROJECT_DIR$/uaa/package.json" />
     </packageJsonPaths>
@@ -326,54 +398,37 @@
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="ad" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ad" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="ad" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="generator-jhipster" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ad" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="generator-jhipster" type="462c0819:PsiDirectoryNode" />
+              <item name="generators" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="ad" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="generator-jhipster" type="462c0819:PsiDirectoryNode" />
+              <item name="generators" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -391,11 +446,11 @@
     <property name="SearchEverywhereHistoryKey" value="ConfigFileApplicationListener&#9;PSI&#9;JAVA://org.springframework.boot.context.config.ConfigFileApplicationListener" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556101065032" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556104805745" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ad/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -430,7 +485,7 @@
     </option>
     <option name="contentProportion" value="0.25378788" />
   </component>
-  <component name="RunManager" selected="Spring Boot.UaaApp">
+  <component name="RunManager" selected="Spring Boot.GatewayApp">
     <configuration name="AduaaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.myapp.AduaaApp" />
       <module name="aduaa" />
@@ -611,9 +666,29 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="AdApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ad" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xh.mall.ad.AdApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xh.mall.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xh.mall.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xh.mall.gateway.GatewayApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -710,9 +785,12 @@
       <item itemvalue="Application.EurekaApplication" />
       <item itemvalue="Application.UaajhApp" />
       <item itemvalue="Application.AduaaApp" />
+      <item itemvalue="Spring Boot.AdApp" />
+      <item itemvalue="Spring Boot.GatewayApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatewayApp" />
         <item itemvalue="Application.AduaaApp" />
         <item itemvalue="Application.GetwayApp" />
         <item itemvalue="Application.UaajhApp" />
@@ -748,13 +826,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32502000" />
+    <option name="totallyTimeSpent" value="35537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32675907" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35074627" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -763,7 +840,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33081082" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.7545946" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.12432432" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -771,21 +848,21 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" visible="true" weight="0.19027027" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" visible="true" weight="0.3935135" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.8518919" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.5989189" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.72756755" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.7037838" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.1977612" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.0031982942" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.08635394" />
       <window_info anchor="right" id="SciView" order="6" weight="0.32995737" />
-      <window_info anchor="right" id="Database" order="7" weight="0.114605546" />
+      <window_info anchor="right" id="Database" order="7" weight="0.23240939" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32995737" />
@@ -923,30 +1000,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/config/ApplicationProperties.java" />
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/config/AsyncConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/config/CacheConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/config/CloudDatabaseConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/config/Constants.java" />
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/config/DatabaseConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/config/DateTimeFormatConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/config/DefaultProfileUtil.java" />
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/config/JacksonConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/config/SecurityConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/service/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/resources/config/application-dev.yml" />
-    <entry file="file://$PROJECT_DIR$/uaajh/src/main/resources/config/application-prod.yml" />
-    <entry file="file://$PROJECT_DIR$/uaajh/src/main/resources/config/application-dev.yml" />
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/resources/config/application.yml" />
-    <entry file="file://$PROJECT_DIR$/getway/src/main/java/com/mycompany/myapp/GetwayApp.java" />
-    <entry file="file://$PROJECT_DIR$/uaajh/src/main/java/com/mycompany/myapp/UaajhApp.java" />
-    <entry file="file://$PROJECT_DIR$/uaajh/src/main/java/com/mycompany/myapp/web/rest/vm/KeyAndPasswordVM.java" />
-    <entry file="file://$PROJECT_DIR$/uaajh/src/main/java/com/mycompany/myapp/web/rest/UserResource.java" />
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/web/rest/AccountResource.java" />
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/web/rest/HelloController.java" />
-    <entry file="file://$PROJECT_DIR$/getway/src/main/resources/config/application-dev.yml" />
-    <entry file="file://$PROJECT_DIR$/aduaa/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/AduaaApp.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/19f5dae1-32ab-4005-bf1e-22070730720c/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1070,13 +1123,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/xh/mall/gateway/GatewayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1235">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -1087,14 +1133,125 @@
     <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/application-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
-          <caret line="56" column="47" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="56" selection-end-column="47" />
+          <caret line="56" column="47" selection-start-line="34" selection-start-column="1" selection-end-line="56" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+        <state relative-caret-position="44">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/src/main/jib/entrypoint.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/xh/mall/gateway/GatewayApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="25" column="88" lean-forward="true" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/manifest.webapp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/.yo-rc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-325" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/.prettierrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/docker/app.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/src/main/resources/config/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2752" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2934" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/.prettierignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/.prettierrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/mvnw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5774" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/quotes.jh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-694">
+            <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/import-jdl/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/import-jdl/USAGE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/.yo-rc.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/entity/prompts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15953">
+          <caret line="376" column="28" selection-start-line="376" selection-start-column="28" selection-end-line="376" selection-end-column="28" />
         </state>
       </provider>
     </entry>

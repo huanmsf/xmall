@@ -9,7 +9,7 @@
       <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>mysql</user-name>
-      <introspection-schemas>*:@,uaajh</introspection-schemas>
+      <introspection-schemas>*:@,ad,uaajh,xmall</introspection-schemas>
     </data-source>
   </component>
 </project>
