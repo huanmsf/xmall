@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.xh.mall.job"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "microservice",
+    "baseName": "job",
+    "packageName": "com.xh.mall.job",
+    "packageFolder": "com/xh/mall/job",
+    "serverPort": "6060",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "N2QzYmY1OWJkODJlNmJhMjkxMzJkNTgxODFlMWI3NDU3NDRjMzU4M2RkYWEwMzdiMmY2MzM5NzgyZmI2MjIyMWU5NmM5ZTZjNzQ4YTg3ZTkzMjRlZmNkZGZmZjM5YzQxNTM1OWM4YjlmZDAzZjljYjhhZjI4MGI0NDQ5NzVmZjQ=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

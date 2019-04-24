@@ -34,12 +34,12 @@
           <entry name="$MAVEN_REPOSITORY$/org/hibernate/hibernate-jpamodelgen/5.2.17.Final/hibernate-jpamodelgen-5.2.17.Final.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar" />
         </processorPath>
-        <module name="ad" />
         <module name="gateway" />
         <module name="uaa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ad" target="1.8" />
       <module name="aduaa" target="1.8" />
       <module name="getway" target="1.8" />
       <module name="uaajh" target="1.8" />

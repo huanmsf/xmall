@@ -2,16 +2,122 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c50b7722-c556-4dda-b8ac-3384a65fd966" name="Default Changelist" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/19f5dae1-32ab-4005-bf1e-22070730720c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/19f5dae1-32ab-4005-bf1e-22070730720c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ad/src/main/resources/config/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/entity.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/entity.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/navbar/navbar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/webpack/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/webpack/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/.yo-rc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/docker/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/docker/app.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/docker/central-server-config/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/docker/central-server-config/docker-config/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/docker/central-server-config/localhost-config/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/docker/entrypoint.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/docker/hazelcast-management-center.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/docker/jhipster-registry.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/docker/mysql.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/docker/sonar.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/AdApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/ApplicationWebXml.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/aop/logging/LoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/client/AuthorizedFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/client/AuthorizedUserFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/client/OAuth2InterceptedFeignConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/client/OAuth2UserClientFeignConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/client/UserFeignClientInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/ApplicationProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/AsyncConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/CacheConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/CloudDatabaseConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/DatabaseConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/DateTimeFormatConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/DefaultProfileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/FeignConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/JacksonConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/LiquibaseConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/LocaleConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/LoggingAspectConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/LoggingConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/SecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/WebConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/audit/AuditEventConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/audit/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/oauth2/OAuth2JwtAccessTokenConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/oauth2/OAuth2Properties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/config/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/domain/AbstractAuditingEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/domain/PersistentAuditEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/domain/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/repository/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/security/AuthoritiesConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/security/SecurityUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/security/SpringSecurityAuditorAware.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/security/oauth2/OAuth2SignatureVerifierClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/security/oauth2/UaaSignatureVerifierClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/security/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/service/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/LogsResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/errors/BadRequestAlertException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/errors/CustomParameterizedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/errors/EmailAlreadyUsedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/errors/EmailNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/errors/ErrorConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/errors/ExceptionTranslator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/errors/FieldErrorVM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/errors/InternalServerErrorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/errors/InvalidPasswordException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/errors/LoginAlreadyUsedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/errors/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/util/HeaderUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/util/PaginationUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/vm/LoggerVM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/java/com/xh/mall/ad/web/rest/vm/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/jib/entrypoint.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/resources/config/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/resources/config/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/resources/config/application-tls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/resources/config/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/resources/config/bootstrap-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/resources/config/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/resources/config/liquibase/changelog/00000000000000_initial_schema.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/resources/config/liquibase/master.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/resources/config/tls/keystore.p12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/resources/i18n/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/main/resources/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/test/java/com/xh/mall/ad/config/SecurityBeanOverrideConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/test/java/com/xh/mall/ad/config/WebConfigurerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/test/java/com/xh/mall/ad/config/WebConfigurerTestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/test/java/com/xh/mall/ad/config/timezone/HibernateTimeZoneTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/test/java/com/xh/mall/ad/repository/timezone/DateTimeWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/test/java/com/xh/mall/ad/repository/timezone/DateTimeWrapperRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/test/java/com/xh/mall/ad/security/OAuth2TokenMockUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/test/java/com/xh/mall/ad/security/SecurityUtilsUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/test/java/com/xh/mall/ad/web/rest/LogsResourceIntTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/test/java/com/xh/mall/ad/web/rest/TestUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/test/java/com/xh/mall/ad/web/rest/errors/ExceptionTranslatorIntTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/test/java/com/xh/mall/ad/web/rest/errors/ExceptionTranslatorTestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/test/java/com/xh/mall/ad/web/rest/util/PaginationUtilUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/test/resources/config/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/test/resources/config/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad/src/test/resources/logback.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,7 +192,7 @@
     <session id="-30681993">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -102,15 +208,16 @@
           <entry key="cmd" value="1" />
           <entry key="csv" value="3" />
           <entry key="editorconfig" value="1" />
-          <entry key="ejs" value="1" />
+          <entry key="ejs" value="2" />
           <entry key="factories" value="1" />
           <entry key="gitattributes" value="1" />
           <entry key="gitignore" value="1" />
+          <entry key="groovy" value="6" />
           <entry key="html" value="3" />
           <entry key="java" value="155" />
-          <entry key="jh" value="1" />
-          <entry key="js" value="3" />
-          <entry key="json" value="6" />
+          <entry key="jh" value="2" />
+          <entry key="js" value="6" />
+          <entry key="json" value="7" />
           <entry key="md" value="3" />
           <entry key="mvnw" value="1" />
           <entry key="p12" value="2" />
@@ -123,8 +230,8 @@
           <entry key="tb_user" value="1" />
           <entry key="txt" value="1" />
           <entry key="webapp" value="1" />
-          <entry key="xml" value="29" />
-          <entry key="yml" value="55" />
+          <entry key="xml" value="30" />
+          <entry key="yml" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -135,15 +242,15 @@
           <entry key="HTML" value="3" />
           <entry key="JAVA" value="155" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="3" />
+          <entry key="JavaScript" value="5" />
           <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="PLAIN_TEXT" value="19" />
           <entry key="Prettier file" value="1" />
           <entry key="Properties" value="4" />
           <entry key="SQL" value="2" />
-          <entry key="Scratch" value="5" />
-          <entry key="XML" value="31" />
-          <entry key="YAML" value="55" />
+          <entry key="Scratch" value="13" />
+          <entry key="XML" value="32" />
+          <entry key="YAML" value="57" />
           <entry key="spring.factories" value="1" />
           <entry key="tsconfig" value="1" />
         </counts>
@@ -151,101 +258,32 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell_2" value="21" />
-          <entry key="dummy" value="26" />
+          <entry key="dummy" value="31" />
           <entry key="java" value="875" />
-          <entry key="json" value="22" />
+          <entry key="jh" value="1" />
+          <entry key="json" value="28" />
           <entry key="properties" value="38" />
           <entry key="sql" value="90" />
           <entry key="txt" value="9" />
           <entry key="xml" value="132" />
-          <entry key="yml" value="118" />
+          <entry key="yml" value="134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="875" />
-          <entry key="PLAIN_TEXT" value="35" />
+          <entry key="JSON" value="3" />
+          <entry key="PLAIN_TEXT" value="41" />
           <entry key="Properties" value="38" />
-          <entry key="Scratch" value="133" />
+          <entry key="Scratch" value="136" />
           <entry key="XML" value="132" />
-          <entry key="YAML" value="118" />
+          <entry key="YAML" value="134" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ad/.yo-rc.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/entity/prompts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15953">
-              <caret line="376" column="28" selection-start-line="376" selection-start-column="28" selection-end-line="376" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ad/mvnw">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5774" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ad/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ad/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ad/quotes.jh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ad/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-694">
-                <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/import-jdl/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-341" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/import-jdl/USAGE">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -271,6 +309,7 @@
       <find>url</find>
       <find>JPAMetaModelFiltering</find>
       <find>serviceClass</find>
+      <find>Quote</find>
     </findStrings>
     <replaceStrings>
       <replace>uaa</replace>
@@ -337,12 +376,14 @@
         <option value="$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/web/rest/HelloController.java" />
         <option value="$PROJECT_DIR$/uaajh/src/main/java/com/mycompany/myapp/web/rest/AccountResource.java" />
         <option value="$PROJECT_DIR$/uaa/src/main/resources/config/application-dev.yml" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
         <option value="$PROJECT_DIR$/gateway/src/main/resources/config/bootstrap.yml" />
         <option value="$PROJECT_DIR$/gateway/src/main/resources/config/application.yml" />
         <option value="$PROJECT_DIR$/gateway/src/main/resources/config/application-prod.yml" />
         <option value="$PROJECT_DIR$/gateway/src/main/resources/config/application-dev.yml" />
+        <option value="$PROJECT_DIR$/ad/.yo-rc.json" />
         <option value="$PROJECT_DIR$/ad/src/main/resources/config/application-dev.yml" />
+        <option value="$PROJECT_DIR$/ad/quotes.jh" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
       </list>
     </option>
   </component>
@@ -354,23 +395,16 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xmall" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/ad/node_modules" />
     <handled-path value="$PROJECT_DIR$/gateway/node_modules" />
     <handled-path value="$PROJECT_DIR$/uaa/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/ad/package.json" />
       <path value="$PROJECT_DIR$/gateway/package.json" />
       <path value="$PROJECT_DIR$/uaa/package.json" />
     </packageJsonPaths>
@@ -397,38 +431,56 @@
             </path>
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="generator-jhipster" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="19f5dae1-32ab-4005-bf1e-22070730720c" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="generator-jhipster" type="462c0819:PsiDirectoryNode" />
-              <item name="generators" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="generator-jhipster" type="462c0819:PsiDirectoryNode" />
-              <item name="generators" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="data" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="data" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="extractors" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="schema" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
@@ -446,7 +498,7 @@
     <property name="SearchEverywhereHistoryKey" value="ConfigFileApplicationListener&#9;PSI&#9;JAVA://org.springframework.boot.context.config.ConfigFileApplicationListener" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556104805745" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556106563721" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -456,7 +508,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -666,13 +718,6 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="AdApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ad" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xh.mall.ad.AdApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xh.mall.eureka.EurekaApplication" />
@@ -785,7 +830,6 @@
       <item itemvalue="Application.EurekaApplication" />
       <item itemvalue="Application.UaajhApp" />
       <item itemvalue="Application.AduaaApp" />
-      <item itemvalue="Spring Boot.AdApp" />
       <item itemvalue="Spring Boot.GatewayApp" />
     </list>
     <recent_temporary>
@@ -826,7 +870,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35537000" />
+    <option name="totallyTimeSpent" value="36823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -840,7 +884,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.7545946" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.52216214" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.12432432" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -848,19 +892,19 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" visible="true" weight="0.3935135" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" visible="true" weight="0.51891893" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.8518919" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.5989189" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.7037838" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.3664865" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.1977612" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.08635394" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.16257995" />
       <window_info anchor="right" id="SciView" order="6" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="7" weight="0.23240939" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -1000,62 +1044,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/19f5dae1-32ab-4005-bf1e-22070730720c/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getway/src/main/resources/config/application.yml" />
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/GatewayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uaajh/src/main/java/com/mycompany/myapp/web/rest/AccountResource.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.8.RELEASE/spring-boot-2.0.8.RELEASE.jar!/org/springframework/boot/env/RandomValuePropertySource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uaajh/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/uaajh/src/main/resources/config/application.yml" />
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/xh/mall/eureka/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/UaaApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/bootstrap-prod.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16" />
@@ -1144,9 +1132,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ad/src/main/resources/config/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ad/src/main/jib/entrypoint.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1175,13 +1160,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway/src/main/docker/app.yml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad/src/main/resources/config/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ad/.editorconfig">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1216,9 +1194,6 @@
     <entry file="file://$PROJECT_DIR$/ad/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ad/quotes.jh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ad/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1239,13 +1214,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/import-jdl/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341" />
+        <state relative-caret-position="-177" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/import-jdl/USAGE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad/.yo-rc.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/entity/prompts.js">
@@ -1254,6 +1226,116 @@
           <caret line="376" column="28" selection-start-line="376" selection-start-column="28" selection-end-line="376" selection-end-column="28" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/.yo-rc.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/generator-transforms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/LocaleConfiguration.java.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="100" column="36" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/generator-base-private.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1016">
+          <caret line="642" column="52" selection-start-line="642" selection-start-column="52" selection-end-line="642" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/src/main/resources/config/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/CSV-Groovy.csv.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/HTML-Groovy.html.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-789">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/HTML-JavaScript.html.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-679">
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/JSON-Groovy.json.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1031">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/SQL-Insert-Statements.sql.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-371" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/XML-Groovy.xml.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-745">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad/quotes.jh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="13" column="656" selection-start-line="13" selection-start-column="656" selection-end-line="13" selection-end-column="656" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
