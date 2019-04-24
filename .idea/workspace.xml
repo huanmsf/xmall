@@ -5,19 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/src/main/java/com/xmall/uaa/UaaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaa/src/test/java/com/xmall/uaa/UaaApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uaajh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/config/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uaa/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/uaa/src/main/resources/config/application-dev.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,59 +79,59 @@
           <entry key="csv" value="3" />
           <entry key="ejs" value="1" />
           <entry key="factories" value="1" />
-          <entry key="html" value="2" />
-          <entry key="java" value="146" />
+          <entry key="html" value="3" />
+          <entry key="java" value="151" />
           <entry key="js" value="1" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
           <entry key="p12" value="2" />
           <entry key="pom" value="2" />
-          <entry key="properties" value="3" />
+          <entry key="properties" value="4" />
           <entry key="sql" value="6" />
           <entry key="tb_user" value="1" />
           <entry key="txt" value="1" />
           <entry key="xml" value="29" />
-          <entry key="yml" value="41" />
+          <entry key="yml" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="8" />
           <entry key="Database Element" value="1" />
-          <entry key="HTML" value="2" />
-          <entry key="JAVA" value="146" />
+          <entry key="HTML" value="3" />
+          <entry key="JAVA" value="151" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Properties" value="3" />
+          <entry key="Properties" value="4" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="5" />
           <entry key="XML" value="31" />
-          <entry key="YAML" value="41" />
+          <entry key="YAML" value="49" />
           <entry key="spring.factories" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell_2" value="21" />
-          <entry key="dummy" value="16" />
+          <entry key="dummy" value="23" />
           <entry key="java" value="875" />
-          <entry key="json" value="21" />
+          <entry key="json" value="22" />
           <entry key="properties" value="38" />
           <entry key="sql" value="90" />
           <entry key="txt" value="9" />
           <entry key="xml" value="132" />
-          <entry key="yml" value="59" />
+          <entry key="yml" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="875" />
-          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="PLAIN_TEXT" value="32" />
           <entry key="Properties" value="38" />
-          <entry key="Scratch" value="132" />
+          <entry key="Scratch" value="133" />
           <entry key="XML" value="132" />
-          <entry key="YAML" value="59" />
+          <entry key="YAML" value="81" />
         </counts>
       </usages-collector>
     </session>
@@ -148,56 +139,84 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/GatewayApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.8.RELEASE/spring-boot-2.0.8.RELEASE.jar!/org/springframework/boot/env/RandomValuePropertySource.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/application-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="118" column="45" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
+            <state relative-caret-position="-2729">
+              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/xh/mall/eureka/EurekaApplication.java">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/application-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="22">
+              <caret line="99" column="52" selection-start-line="99" selection-start-column="52" selection-end-line="99" selection-end-column="52" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/GatewayResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/AuthResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/filter/RefreshTokenFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/gateway/accesscontrol/AccessControlFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-661">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uaa/src/main/resources/config/application-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uaa/src/main/resources/config/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3165" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1912" />
           </provider>
         </entry>
       </file>
@@ -221,9 +240,16 @@
       <find>/oauth</find>
       <find>/token_key</find>
       <find>defaultZone</find>
+      <find>uaa</find>
+      <find>uaajh</find>
+      <find>http://uaa</find>
     </findStrings>
+    <replaceStrings>
+      <replace>uaa</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/uaajh</dir>
+      <dir>$PROJECT_DIR$/gateway/src/main/resources/config</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -281,7 +307,11 @@
         <option value="$PROJECT_DIR$/uaajh/src/main/resources/config/application.yml" />
         <option value="$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/web/rest/HelloController.java" />
         <option value="$PROJECT_DIR$/uaajh/src/main/java/com/mycompany/myapp/web/rest/AccountResource.java" />
+        <option value="$PROJECT_DIR$/uaa/src/main/resources/config/application-dev.yml" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
+        <option value="$PROJECT_DIR$/gateway/src/main/resources/config/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/gateway/src/main/resources/config/application-prod.yml" />
+        <option value="$PROJECT_DIR$/gateway/src/main/resources/config/application.yml" />
         <option value="$PROJECT_DIR$/gateway/src/main/resources/config/application-dev.yml" />
       </list>
     </option>
@@ -301,11 +331,13 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/aduaa/node_modules" />
     <handled-path value="$PROJECT_DIR$/gateway/node_modules" />
+    <handled-path value="$PROJECT_DIR$/uaa/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/aduaa/package.json" />
       <path value="$PROJECT_DIR$/gateway/package.json" />
+      <path value="$PROJECT_DIR$/uaa/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -329,6 +361,41 @@
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmall" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -345,7 +412,7 @@
     <property name="SearchEverywhereHistoryKey" value="ConfigFileApplicationListener&#9;PSI&#9;JAVA://org.springframework.boot.context.config.ConfigFileApplicationListener" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556093847595" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556097317024" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -384,7 +451,7 @@
     </option>
     <option name="contentProportion" value="0.25378788" />
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApp">
+  <component name="RunManager" selected="Spring Boot.UaaApp">
     <configuration name="AduaaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.myapp.AduaaApp" />
       <module name="aduaa" />
@@ -479,16 +546,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UaaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="UaaApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="uaa" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xmall.uaa.UaaApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UaajhApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="uaajh" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mycompany.myapp.UaajhApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mycompany.myapp.UaaApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -502,11 +562,9 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.UserApplication" />
-      <item itemvalue="Spring Boot.UaaApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.GoodsApplication" />
       <item itemvalue="Spring Boot.RccApplication" />
-      <item itemvalue="Spring Boot.UaajhApp" />
       <item itemvalue="Spring Boot.AduaaApp" />
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Application.GetwayApp" />
@@ -514,6 +572,7 @@
       <item itemvalue="Application.UaajhApp" />
       <item itemvalue="Application.AduaaApp" />
       <item itemvalue="Spring Boot.GatewayApp" />
+      <item itemvalue="Spring Boot.UaaApp" />
     </list>
     <recent_temporary>
       <list>
@@ -539,7 +598,7 @@
       <workItem from="1555654837102" duration="6402000" />
       <workItem from="1555737862441" duration="1346000" />
       <workItem from="1555895130394" duration="1898000" />
-      <workItem from="1556090182901" duration="3650000" />
+      <workItem from="1556090182901" duration="7014000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1555738081541</created>
@@ -552,12 +611,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28342000" />
+    <option name="totallyTimeSpent" value="31706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2185501" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32675907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -566,7 +625,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.098378375" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6745946" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.12432432" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -574,19 +633,19 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" visible="true" weight="0.5524324" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" weight="0.3416216" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.45621622" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.43891892" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.5989189" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.6097297" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.6097297" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.1977612" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.014392324" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.013859275" />
       <window_info anchor="right" id="SciView" order="6" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="7" weight="0.114605546" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -661,6 +720,12 @@
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/AuthResource.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -683,90 +748,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uaajh/src/main/java/com/mycompany/myapp/web/rest/AuditResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uaajh/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/oauth2/OAuth2Properties.java.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="109" column="63" selection-start-line="109" selection-start-column="63" selection-end-line="109" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/ApplicationWebXml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/webapp/app/account/password/password.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/config/WebConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/web/rest/LogsResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/web/rest/AuditResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/service/dto/UserDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/web/rest/UserJWTController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/web/rest/UserResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/web/rest/vm/ManagedUserVM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -998,27 +979,6 @@
     <entry file="file://$PROJECT_DIR$/uaajh/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="118" column="45" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uaajh/src/main/resources/config/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-352">
@@ -1030,6 +990,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/UaaApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/bootstrap-prod.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="117" column="27" lean-forward="true" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/GatewayResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/AuthResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/filter/RefreshTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/gateway/accesscontrol/AccessControlFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-661">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaa/src/main/resources/config/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uaa/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3165" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2729">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/config/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="99" column="52" selection-start-line="99" selection-start-column="52" selection-end-line="99" selection-end-column="52" />
         </state>
       </provider>
     </entry>
