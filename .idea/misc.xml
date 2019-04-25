@@ -6,6 +6,7 @@
     <file type="web" url="file://$PROJECT_DIR$/aduaa" />
     <file type="web" url="file://$PROJECT_DIR$/gateway" />
     <file type="web" url="file://$PROJECT_DIR$/getway" />
+    <file type="web" url="file://$PROJECT_DIR$/job" />
     <file type="web" url="file://$PROJECT_DIR$/uaa" />
     <file type="web" url="file://$PROJECT_DIR$/uaajh" />
   </component>
@@ -24,6 +25,7 @@
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/ad/pom.xml" />
+        <option value="$PROJECT_DIR$/job/pom.xml" />
       </list>
     </option>
   </component>
