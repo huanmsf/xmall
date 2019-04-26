@@ -1,15 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c50b7722-c556-4dda-b8ac-3384a65fd966" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/web/rest/JobController.java" afterDir="false" />
+    <list default="true" id="c50b7722-c556-4dda-b8ac-3384a65fd966" name="Default Changelist" comment="job">
+      <change afterPath="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/security/PermissionConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/security/PermissionTargetConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/security/XmallPermissionEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/permission.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/domain/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/domain/UserPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/ApplicationWebXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/aop/logging/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/client/AuthorizedFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/client/AuthorizedUserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/client/OAuth2InterceptedFeignConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/client/OAuth2UserClientFeignConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/client/UserFeignClientInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/ApplicationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/AsyncConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/CacheConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/CloudDatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/DatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/DateTimeFormatConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/DefaultProfileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/FeignConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/JacksonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/LiquibaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/LocaleConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/LoggingAspectConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/LoggingConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/WebConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/audit/AuditEventConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/audit/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/oauth2/OAuth2JwtAccessTokenConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/oauth2/OAuth2Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/domain/AbstractAuditingEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/domain/PersistentAuditEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/domain/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/AuthoritiesConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/PermissionConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/PermissionTargetConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/SecurityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/SpringSecurityAuditorAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/XmallPermissionEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/oauth2/OAuth2SignatureVerifierClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/oauth2/UaaSignatureVerifierClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/resources/config/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/resources/config/liquibase/changelog/00000000000000_initial_schema.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/resources/config/liquibase/master.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/resources/config/tls/keystore.p12" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/19f5dae1-32ab-4005-bf1e-22070730720c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/19f5dae1-32ab-4005-bf1e-22070730720c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/job/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/web/rest/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/web/rest/JobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/security/IatTokenEnhancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/security/IatTokenEnhancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/example/user/UserApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/example/user/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/example/user/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/example/user/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/example/user/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/example/user/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/test/java/com/example/user/UserApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/test/java/com/xh/mall/user/UserApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,6 +91,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/xmall$UserApplication.ic" NAME="UserApplication Coverage Results" MODIFIED="1556272077789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.xh.mall.user.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -58,6 +122,12 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="uaajh: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="xmall: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
     </expand>
@@ -67,14 +137,16 @@
     <session id="-30681993">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -82,130 +154,152 @@
           <entry key="DATABASECHANGELOG" value="1" />
           <entry key="DATABASECHANGELOGLOCK" value="1" />
           <entry key="USAGE" value="1" />
-          <entry key="class" value="8" />
+          <entry key="class" value="84" />
           <entry key="cmd" value="1" />
           <entry key="csv" value="3" />
           <entry key="editorconfig" value="1" />
-          <entry key="ejs" value="2" />
+          <entry key="ejs" value="3" />
           <entry key="factories" value="1" />
           <entry key="gitattributes" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="groovy" value="6" />
-          <entry key="html" value="3" />
-          <entry key="java" value="162" />
+          <entry key="html" value="4" />
+          <entry key="java" value="432" />
           <entry key="jh" value="2" />
-          <entry key="jhi_persistent_audit_event" value="1" />
-          <entry key="jhi_persistent_audit_evt_data" value="1" />
-          <entry key="jhi_user" value="1" />
-          <entry key="js" value="6" />
+          <entry key="jhi_authority" value="1" />
+          <entry key="jhi_persistent_audit_event" value="2" />
+          <entry key="jhi_persistent_audit_evt_data" value="2" />
+          <entry key="jhi_user" value="2" />
+          <entry key="jhi_user_authority" value="1" />
+          <entry key="js" value="7" />
           <entry key="json" value="7" />
-          <entry key="md" value="3" />
+          <entry key="md" value="4" />
           <entry key="mvnw" value="1" />
           <entry key="p12" value="2" />
           <entry key="pom" value="2" />
           <entry key="prettierignore" value="1" />
           <entry key="prettierrc" value="2" />
-          <entry key="properties" value="4" />
+          <entry key="properties" value="10" />
           <entry key="sh" value="1" />
-          <entry key="sql" value="6" />
+          <entry key="sql" value="8" />
           <entry key="tb_user" value="1" />
           <entry key="txt" value="1" />
           <entry key="webapp" value="1" />
-          <entry key="xml" value="30" />
-          <entry key="yml" value="59" />
+          <entry key="xml" value="41" />
+          <entry key="yml" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="8" />
-          <entry key="Database Element" value="6" />
+          <entry key="CLASS" value="84" />
+          <entry key="Database Element" value="11" />
           <entry key="Git file" value="1" />
-          <entry key="HTML" value="3" />
-          <entry key="JAVA" value="162" />
+          <entry key="HTML" value="4" />
+          <entry key="JAVA" value="432" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="5" />
-          <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="JavaScript" value="6" />
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="20" />
           <entry key="Prettier file" value="1" />
-          <entry key="Properties" value="4" />
-          <entry key="SQL" value="2" />
+          <entry key="Properties" value="10" />
+          <entry key="SQL" value="4" />
           <entry key="Scratch" value="13" />
-          <entry key="XML" value="32" />
-          <entry key="YAML" value="59" />
+          <entry key="XML" value="43" />
+          <entry key="YAML" value="79" />
           <entry key="spring.factories" value="1" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cell_2" value="21" />
-          <entry key="dummy" value="31" />
-          <entry key="java" value="924" />
+          <entry key="cell_2" value="31" />
+          <entry key="class" value="2" />
+          <entry key="dummy" value="53" />
+          <entry key="java" value="1360" />
           <entry key="jh" value="1" />
           <entry key="json" value="28" />
-          <entry key="properties" value="38" />
-          <entry key="sql" value="90" />
-          <entry key="txt" value="9" />
-          <entry key="xml" value="132" />
+          <entry key="properties" value="45" />
+          <entry key="sql" value="99" />
+          <entry key="txt" value="12" />
+          <entry key="xml" value="150" />
           <entry key="yml" value="150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="924" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="1360" />
           <entry key="JSON" value="3" />
-          <entry key="PLAIN_TEXT" value="41" />
-          <entry key="Properties" value="38" />
-          <entry key="Scratch" value="136" />
-          <entry key="XML" value="132" />
+          <entry key="PLAIN_TEXT" value="66" />
+          <entry key="Properties" value="45" />
+          <entry key="SQL" value="9" />
+          <entry key="Scratch" value="146" />
+          <entry key="XML" value="150" />
           <entry key="YAML" value="150" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/UaaApp.java">
+        <entry file="file://$PROJECT_DIR$/user/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/web/rest/AuditResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/web/rest/UserResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-393">
-              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+            <state relative-caret-position="484">
+              <caret line="131" selection-start-line="131" selection-end-line="131" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/aop/logging/LoggingAspect.java">
+        <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/UserApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-921">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="243">
+              <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/web/rest/AccountResource.java">
+        <entry file="file://$PROJECT_DIR$/job/src/main/resources/config/application-tls.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/job/src/main/resources/config/liquibase/master.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/src/main/resources/config/liquibase/changelog/00000000000000_initial_schema.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/ApplicationWebXml.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2866">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="372">
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/job/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="687" column="36" lean-forward="true" selection-start-line="687" selection-start-column="36" selection-end-line="687" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -227,8 +321,6 @@
       <find>servletEndpointRegistrar</find>
       <find>Your request cannot be processed</find>
       <find>error.html</find>
-      <find>/oauth</find>
-      <find>/token_key</find>
       <find>defaultZone</find>
       <find>uaa</find>
       <find>uaajh</find>
@@ -237,14 +329,36 @@
       <find>JPAMetaModelFiltering</find>
       <find>serviceClass</find>
       <find>Quote</find>
+      <find>oauth</find>
+      <find>hasRole</find>
+      <find>defaultRolePrefix</find>
+      <find>read</find>
+      <find>permissionEvaluator</find>
+      <find>SecurityExpressionRoot</find>
+      <find>/token_key</find>
+      <find>/oauth</find>
+      <find>Authentication</find>
+      <find>/login</find>
+      <find>sendPasswordGrant</find>
+      <find>authorizationServer</find>
+      <find>OAuth2Authentication</find>
+      <find>dataSource</find>
+      <find>job</find>
+      <find>test</find>
     </findStrings>
     <replaceStrings>
       <replace>uaa</replace>
+      <replace>user</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/uaajh</dir>
       <dir>$PROJECT_DIR$/gateway/src/main/resources/config</dir>
       <dir>$PROJECT_DIR$/ad</dir>
+      <dir>$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp</dir>
+      <dir>$PROJECT_DIR$/job</dir>
+      <dir>$PROJECT_DIR$/gateway</dir>
+      <dir>$PROJECT_DIR$/uaa</dir>
+      <dir>$PROJECT_DIR$/user</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -260,57 +374,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/uaa/pom.xml" />
-        <option value="$PROJECT_DIR$/order/pom.xml" />
-        <option value="$PROJECT_DIR$/goods/pom.xml" />
-        <option value="$PROJECT_DIR$/base/pom.xml" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/xh/mall/base/listener/XmallJpaListener.java" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/xh/mall/base/listener/BaseEntityListener.java" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/xh/mall/base/listener/TenantEntityListener.java" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/xh/mall/base/repository/DefaultRepository.java" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/xh/mall/base/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/xh/mall/base/service/IBaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/xh/mall/base/entity/TenantEntity.java" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/xh/mall/base/service/TenantBaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/xh/mall/base/entity/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/user/pom.xml" />
-        <option value="$PROJECT_DIR$/user/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/xh/mall/base/repository/IBaseRepository.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/example/user/repository/IBaseRepository.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/example/user/repository/UserRepository.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/19f5dae1-32ab-4005-bf1e-22070730720c/console.sql" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/xh/mall/base/entity/TenantBaseEntity.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/example/user/entity/User.java" />
-        <option value="$PROJECT_DIR$/sql/user.sql" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/example/user/service/UserService.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/example/user/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/xh/mall/base/service/IBaseService.java" />
-        <option value="$PROJECT_DIR$/base/src/main/java/com/xh/mall/base/service/BaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/example/user/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/uaajh/pom.xml" />
-        <option value="$PROJECT_DIR$/uaajh/src/main/resources/config/application-dev.yml" />
-        <option value="$PROJECT_DIR$/uaajh/src/main/java/com/mycompany/myapp/UaajhApp2.java" />
-        <option value="$PROJECT_DIR$/uaajh/src/main/java/com/mycompany/myapp/web/rest/UserResource.java" />
-        <option value="$PROJECT_DIR$/eureka/src/main/java/com/xh/mall/eureka/EurekaApplication.java" />
-        <option value="$PROJECT_DIR$/eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/aduaa/src/main/resources/config/application-dev.yml" />
-        <option value="$PROJECT_DIR$/uaajh/src/main/java/com/mycompany/myapp/UaajhApp.java" />
-        <option value="$PROJECT_DIR$/uaajh/src/main/resources/config/application.yml" />
-        <option value="$PROJECT_DIR$/aduaa/src/main/java/com/mycompany/myapp/web/rest/HelloController.java" />
-        <option value="$PROJECT_DIR$/uaajh/src/main/java/com/mycompany/myapp/web/rest/AccountResource.java" />
-        <option value="$PROJECT_DIR$/uaa/src/main/resources/config/application-dev.yml" />
-        <option value="$PROJECT_DIR$/gateway/src/main/resources/config/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/gateway/src/main/resources/config/application.yml" />
-        <option value="$PROJECT_DIR$/gateway/src/main/resources/config/application-prod.yml" />
-        <option value="$PROJECT_DIR$/gateway/src/main/resources/config/application-dev.yml" />
-        <option value="$PROJECT_DIR$/ad/.yo-rc.json" />
         <option value="$PROJECT_DIR$/ad/src/main/resources/config/application-dev.yml" />
         <option value="$PROJECT_DIR$/ad/quotes.jh" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
-        <option value="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/web/rest/JobController.java" />
         <option value="$PROJECT_DIR$/job/src/main/resources/config/application-dev.yml" />
+        <option value="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/security/AuthoritiesConstants.java" />
+        <option value="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/security/PermissionConstants.java" />
+        <option value="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/security/PermissionTargetConstants.java" />
+        <option value="$PROJECT_DIR$/sql/permission.sql" />
+        <option value="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/domain/Permission.java" />
+        <option value="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/domain/UserPermission.java" />
+        <option value="$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/security/AuthoritiesConstants.java" />
+        <option value="$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/web/rest/UserResource.java" />
+        <option value="$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/service/UserService.java" />
+        <option value="$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/config/UaaConfiguration.java" />
+        <option value="$PROJECT_DIR$/uaa/src/test/java/com/mycompany/myapp/web/rest/AccountResourceIntTest.java" />
+        <option value="$PROJECT_DIR$/uaa/src/test/java/com/mycompany/myapp/web/rest/UserResourceIntTest.java" />
+        <option value="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/config/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/security/SecurityUtils.java" />
+        <option value="$PROJECT_DIR$/job/src/test/java/com/xh/mall/job/security/SecurityUtilsUnitTest.java" />
+        <option value="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/security/oauth2/SpringSecurityAuditorAware.java" />
+        <option value="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/security/SpringSecurityAuditorAware.java" />
+        <option value="$PROJECT_DIR$/job/pom.xml" />
+        <option value="$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/UaaApp.java" />
+        <option value="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/security/XmallPermissionEvaluatorConf.java" />
+        <option value="$PROJECT_DIR$/gateway/src/main/java/com/xh/mall/gateway/security/XmallPermissionEvaluator.java" />
+        <option value="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/web/rest/JobController.java" />
+        <option value="$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/security/IatTokenEnhancer.java" />
+        <option value="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/security/XmallPermissionEvaluator.java" />
+        <option value="$PROJECT_DIR$/user/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/user/src/main/resources/config/application.properties" />
+        <option value="$PROJECT_DIR$/user/src/main/resources/config/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/user/src/main/resources/config/application.yml" />
+        <option value="$PROJECT_DIR$/user/src/main/resources/config/application-dev.yml" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/example/user/UserApplication.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/PermissionConstants.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/client/AuthorizedFeignClient.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/UserApplication.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/oauth2/OAuth2JwtAccessTokenConverter.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/audit/AuditEventConverter.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/domain/AbstractAuditingEntity.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/LoggingAspectConfiguration.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/logging/LoggingAspect.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/oauth2/UaaSignatureVerifierClient.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/SpringSecurityAuditorAware.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/CacheConfiguration.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/CloudDatabaseConfiguration.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/JacksonConfiguration.java" />
+        <option value="$PROJECT_DIR$/user/pom.xml" />
+        <option value="$PROJECT_DIR$/user/target/generated-sources/annotations/com/xh/mall/user/entity/User_.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/ApplicationWebXml.java" />
       </list>
     </option>
   </component>
@@ -732,9 +846,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="122" />
     <option name="y" value="27" />
-    <option name="width" value="1890" />
-    <option name="height" value="825" />
+    <option name="width" value="1647" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -742,6 +857,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -752,25 +868,68 @@
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="uaa" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="uaa" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="uaa" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="uaa" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xmall" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -778,80 +937,39 @@
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="uaa" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="uaa" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
-              <item name="logging" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="uaa" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xmall" type="462c0819:PsiDirectoryNode" />
-              <item name="uaa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myapp" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="vm" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -860,14 +978,14 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="ConfigFileApplicationListener&#9;PSI&#9;JAVA://org.springframework.boot.context.config.ConfigFileApplicationListener" />
+    <property name="SearchEverywhereHistoryKey" value="OAuth2InterceptedFeignConfiguration&#9;PSI&#9;JAVA://com.xh.mall.job.client.OAuth2InterceptedFeignConfiguration&#10;oauth2Authentication&#9;FILE&#9;jar:///root/.m2/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/OAuth2Authentication.class&#10;ConfigFileApplicationListener&#9;PSI&#9;JAVA://org.springframework.boot.context.config.ConfigFileApplicationListener" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556109741635" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556272085996" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/job/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -876,12 +994,27 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user/src/main/resources/config" />
+      <recent name="$PROJECT_DIR$/user/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.xh.mall.job.security" />
+      <recent name="com.mycompany.myapp.security" />
+      <recent name="com.mycompany.myapp.domain" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mycompany.myapp" />
-      <recent name="com.example.user.repository" />
-      <recent name="com.xh.mall.base.service" />
-      <recent name="com.xh.mall.base.listener" />
-      <recent name="com.xh.mall.base.entity" />
+      <recent name="com.xh.mall.user" />
+      <recent name="com.xh.mall.user.logging" />
+      <recent name="com.xh.mall.job.security" />
+      <recent name="com.xh.mall.gateway.security" />
+      <recent name="com.xh.mall.job.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user/src/main/resources/config" />
+      <recent name="$PROJECT_DIR$/user/src/main/java/com/xh/mall/user" />
+      <recent name="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/security" />
+      <recent name="$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/security/oauth2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -900,9 +1033,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.25378788" />
+    <option name="contentProportion" value="0.31709957" />
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApp">
+  <component name="RunManager" selected="Application.UserApplication">
     <configuration name="AduaaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.myapp.AduaaApp" />
       <module name="aduaa" />
@@ -916,12 +1049,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xh.mall.eureka.EurekaApplication" />
-      <module name="eureka" />
+    <configuration name="JobApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xh.mall.job.JobApp" />
+      <module name="job" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xh.mall.eureka.*" />
+          <option name="PATTERN" value="com.xh.mall.job.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -929,25 +1062,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetwayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.myapp.GetwayApp" />
-      <module name="getway" />
+    <configuration name="UserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xh.mall.user.UserApplication" />
+      <module name="user" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mycompany.myapp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UaajhApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.myapp.UaajhApp" />
-      <module name="uaajh" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mycompany.myapp.*" />
+          <option name="PATTERN" value="com.xh.mall.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1010,34 +1130,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="UserApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="user" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.user.UserApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xh.mall.job.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xh.mall.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xh.mall.user.UserApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.GoodsApplication" />
       <item itemvalue="Spring Boot.RccApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.UaaApp" />
       <item itemvalue="Spring Boot.JobApp" />
-      <item itemvalue="Application.GetwayApp" />
-      <item itemvalue="Application.EurekaApplication" />
-      <item itemvalue="Application.UaajhApp" />
       <item itemvalue="Application.AduaaApp" />
       <item itemvalue="Spring Boot.GatewayApp" />
+      <item itemvalue="Spring Boot.UserApplication (1)" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Application.UserApplication" />
+      <item itemvalue="Application.JobApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserApplication" />
+        <item itemvalue="Application.JobApp" />
+        <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.GatewayApp" />
         <item itemvalue="Application.AduaaApp" />
-        <item itemvalue="Application.GetwayApp" />
-        <item itemvalue="Application.UaajhApp" />
-        <item itemvalue="Application.EurekaApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -1058,6 +1191,10 @@
       <workItem from="1555895130394" duration="1898000" />
       <workItem from="1556090182901" duration="7014000" />
       <workItem from="1556106912636" duration="2678000" />
+      <workItem from="1556153991816" duration="152000" />
+      <workItem from="1556158642356" duration="18193000" />
+      <workItem from="1556241942942" duration="10275000" />
+      <workItem from="1556267848869" duration="4033000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1555738081541</created>
@@ -1066,16 +1203,33 @@
       <option name="project" value="LOCAL" />
       <updated>1555738081541</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="job">
+      <created>1556154100642</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556154100642</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39501000" />
+    <option name="totallyTimeSpent" value="72154000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26812366" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28944564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1084,68 +1238,70 @@
       <window_info id="Image Layers" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.52216214" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.12432432" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.64712155" weight="0.1027027" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.23891892" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32972974" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49840087" weight="0.44972974" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.5178378" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.5989189" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.41577825" side_tool="true" weight="0.18162163" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.27891892" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32864866" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.70054054" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.5842217" weight="0.13297297" />
+      <window_info anchor="bottom" id="TypeScript" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.1977612" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.05063966" />
+      <window_info anchor="right" id="Database" order="6" weight="0.2185501" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="SciView" order="9" weight="0.32995737" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29637527" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.64712155" weight="0.7221622" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49946696" weight="0.12432432" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32972974" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32972974" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49840087" weight="0.44972974" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.4152452" side_tool="true" weight="0.4864865" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.27891892" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32864866" />
+      <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32972974" />
+      <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.5847548" visible="true" weight="0.24324325" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.1977612" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.16257995" />
-      <window_info anchor="right" id="SciView" order="6" weight="0.32995737" />
-      <window_info anchor="right" id="Database" order="7" weight="0.26066098" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32995737" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32675907" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Image Layers" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.6745946" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.12432432" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" weight="0.40864864" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.45621622" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.42486486" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32864866" />
-      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32972974" />
-      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.49405405" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.1977612" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.13539445" />
-      <window_info anchor="right" id="SciView" order="6" weight="0.32995737" />
-      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.09488273" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Database" order="6" weight="0.07249467" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="SciView" order="9" weight="0.32995737" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32995737" />
     </layout-to-restore>
   </component>
@@ -1163,7 +1319,32 @@
       <path value="$PROJECT_DIR$/uaajh" />
     </ignored-roots>
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="job" />
+    <option name="LAST_COMMIT_MESSAGE" value="job" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway/src/main/java/com/xh/mall/gateway/security/SecurityUtils.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway/src/main/java/com/xh/mall/gateway/security/SecurityUtils.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway/src/main/java/com/xh/mall/gateway/security/SecurityUtils.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1171,6 +1352,26 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>(Map) decodedDetails</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>userAuthentication</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>accessToken</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>authentication</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>baseRepository</expression-string>
         <language-id>JAVA</language-id>
@@ -1184,197 +1385,309 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ad/src/main/jib/entrypoint.sh" />
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/xh/mall/gateway/GatewayApp.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/resources/config/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="25" column="88" lean-forward="true" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
+        <state relative-caret-position="1678">
+          <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/manifest.webapp">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/jhipster/jhipster-framework/2.1.1/jhipster-framework-2.1.1.jar!/io/github/jhipster/config/JHipsterConstants.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-235" />
+        <state relative-caret-position="176">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/.yo-rc.json">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-325" />
+        <state relative-caret-position="264">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/.prettierrc">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/DatabaseConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/liquibase/LiquibaseProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1635">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/tsconfig.json">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/AsyncConfiguration.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/docker/app.yml">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/FeignConfiguration.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ad/.editorconfig" />
-    <entry file="file://$PROJECT_DIR$/ad/.gitattributes" />
-    <entry file="file://$PROJECT_DIR$/ad/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/ad/.prettierignore" />
-    <entry file="file://$PROJECT_DIR$/ad/.prettierrc" />
-    <entry file="file://$PROJECT_DIR$/ad/mvnw.cmd" />
-    <entry file="file://$PROJECT_DIR$/ad/mvnw" />
-    <entry file="file://$PROJECT_DIR$/ad/package.json" />
-    <entry file="file://$PROJECT_DIR$/ad/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/ad/README.md" />
-    <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/README.md" />
-    <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/import-jdl/index.js" />
-    <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/import-jdl/USAGE" />
-    <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/entity/prompts.js" />
-    <entry file="file://$PROJECT_DIR$/ad/.yo-rc.json" />
-    <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/generator-transforms.js" />
-    <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/server/templates/src/main/java/package/config/LocaleConfiguration.java.ejs" />
-    <entry file="file://$PROJECT_DIR$/ad/node_modules/generator-jhipster/generators/generator-base-private.js" />
-    <entry file="file://$PROJECT_DIR$/ad/src/main/resources/config/application.yml" />
-    <entry file="file://$PROJECT_DIR$/ad/src/main/resources/config/application-dev.yml" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/CSV-Groovy.csv.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/HTML-Groovy.html.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-789" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/HTML-JavaScript.html.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-679" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/JSON-Groovy.json.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1031" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/SQL-Insert-Statements.sql.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-371" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/XML-Groovy.xml.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-745" />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad/quotes.jh" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="13" column="656" selection-start-line="13" selection-start-column="656" selection-end-line="13" selection-end-column="656" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.m2/settings.xml">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/audit/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://19f5dae1-32ab-4005-bf1e-22070730720c/schema/xmall/table/jhi_persistent_audit_evt_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://19f5dae1-32ab-4005-bf1e-22070730720c/schema/xmall/table/jhi_persistent_audit_event">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/PermissionTargetConstants.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://19f5dae1-32ab-4005-bf1e-22070730720c/schema/xmall/table/DATABASECHANGELOGLOCK">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/oauth2/OAuth2SignatureVerifierClient.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://19f5dae1-32ab-4005-bf1e-22070730720c/schema/uaajh/table/jhi_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/SecurityUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://19f5dae1-32ab-4005-bf1e-22070730720c/schema/xmall/table/DATABASECHANGELOG">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/XmallPermissionEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/job/src/main/resources/config/application.yml">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/PermissionConstants.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/security/PermissionConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2640" />
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/web/rest/JobController.java">
+    <entry file="file://$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/client/OAuth2InterceptedFeignConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="88">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/client/AuthorizedUserFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/client/OAuth2UserClientFeignConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/client/UserFeignClientInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/client/AuthorizedFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/job/src/main/resources/config/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/job/src/main/java/com/xh/mall/job/JobApp.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/client/OAuth2InterceptedFeignConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/UaaApp.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/oauth2/OAuth2JwtAccessTokenConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="-1694">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/web/rest/AccountResource.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/audit/AuditEventConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2866">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="44">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/web/rest/AuditResource.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/domain/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/domain/PersistentAuditEvent.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/domain/AbstractAuditingEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="66">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/web/rest/UserResource.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/WebConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-393">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        <state relative-caret-position="66">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uaa/src/main/java/com/mycompany/myapp/aop/logging/LoggingAspect.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/SecurityConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-921">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="264">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/LoggingConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/aop/logging/LoggingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/AuthoritiesConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/oauth2/UaaSignatureVerifierClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-713">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/security/SpringSecurityAuditorAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/LoggingAspectConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/CacheConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1619">
+          <caret line="56" column="67" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/CloudDatabaseConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/JacksonConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-461">
+          <caret line="10" column="70" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/config/LiquibaseConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-475">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/target/generated-sources/annotations/com/xh/mall/user/entity/User_.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/ApplicationWebXml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="687" column="36" lean-forward="true" selection-start-line="687" selection-start-column="36" selection-end-line="687" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/src/main/resources/config/application-tls.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/src/main/resources/config/liquibase/master.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/resources/config/liquibase/changelog/00000000000000_initial_schema.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/xh/mall/user/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

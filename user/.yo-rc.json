@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.xh.mall.user"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "microservice",
+    "baseName": "user",
+    "packageName": "com.xh.mall.user",
+    "packageFolder": "com/xh/mall/user",
+    "serverPort": "6061",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YTcwN2FjNGQ0YWJlMzJkNjQ5M2U1MTdjNjU0ODIyYzBkNTExN2E4YzQ0MGZjYWNlYjFlYjc0ZjEzMzk0YzM4YmM0NjBmY2E0OGUyODQ2ODU4ZDM5ZjQyZGY3NzMzOTk5NWE5YzQ0MDcxYTg2Njc4ZDkyYzRlZTIyMTY0ZGI0ZmE=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

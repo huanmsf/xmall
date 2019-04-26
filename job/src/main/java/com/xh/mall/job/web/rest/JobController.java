@@ -1,8 +1,13 @@
 package com.xh.mall.job.web.rest;
 
+import com.xh.mall.job.security.AuthoritiesConstants;
+import com.xh.mall.job.security.PermissionConstants;
+import com.xh.mall.job.security.PermissionTargetConstants;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 
 /**
  * TODO
@@ -12,6 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/api")
+//@PreAuthorize("hasRole(\"" + AuthoritiesConstants.USER + "\")")
+@PreAuthorize("hasPermission(\"" + PermissionTargetConstants.ORDER + "\",\"" + PermissionConstants.LIST + "\")")
 public class JobController {
 
     @GetMapping("/list")
