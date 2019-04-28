@@ -8,11 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="base" />
         <module name="eureka" />
-        <module name="goods" />
-        <module name="order" />
-        <module name="rcc" />
       </profile>
-      <profile name="Annotation profile for Gateway" enabled="true">
+      <profile name="Annotation profile for xmall" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -43,6 +40,9 @@
       <module name="ad" target="1.8" />
       <module name="aduaa" target="1.8" />
       <module name="getway" target="1.8" />
+      <module name="goods" target="1.8" />
+      <module name="order" target="1.8" />
+      <module name="rcc" target="1.8" />
       <module name="uaajh" target="1.8" />
     </bytecodeTargetLevel>
   </component>
